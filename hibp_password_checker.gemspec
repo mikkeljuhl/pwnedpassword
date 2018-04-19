@@ -5,12 +5,12 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "hibp_password_checker"
-  spec.version       = "0.0.1"
+  spec.version       = "0.0.2"
   spec.authors       = ["Mikkel Jeppesen Juhl"]
   spec.email         = ["mail@mikkeljuhl.com"]
 
   spec.summary       = "API Wrapper to check if password has been pwned using haveibeenpwned"
-  spec.description   = "hibp_password_checker uses the haveibeenpwned api, to send the first 5 chars of your SHA1'ed passowrd. Then it does a local comparision of list of returned hashes from haveibeenpwned."
+  spec.description   = "hibp_password_checker uses the haveibeenpwned (have i been pwned) api, to send the first 5 chars of your SHA1'ed passowrd. Then it does a local comparision of list of returned hashes from haveibeenpwned."
   spec.homepage      = "https://github.com/mikkeljuhl/pwnedpassword"
   spec.license       = "MIT"
 
